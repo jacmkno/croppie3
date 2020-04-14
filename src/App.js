@@ -6,7 +6,7 @@ var Croppie = require("croppie");
 export default function App() {
   const [loaded, setLoaded] = useState(null);
   const el = useRef(null);
-  // https://foliotek.github.io/Croppie/
+  // SRC: https://foliotek.github.io/Croppie/
 
   useEffect(
     e => {
